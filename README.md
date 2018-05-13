@@ -20,3 +20,7 @@ script_name: Harris_corners.py
 The outcome getting is shown in the next image (somes examples).
 
 ![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/Harris_corners.png)
+
+2.2 Holes detection.
+
+In work...
