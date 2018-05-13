@@ -9,7 +9,8 @@ In the next image the outcome of this first step is shown. The characters shown 
 ![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/EMNIST_illustration.png)
 
 
-2. Characteristics extraction.\n
+2. Characteristics extraction
+
 2.1. Harris Corners.
 In this section the Harris corners are gotten and the corresponding feature-vector is constructed.
 script_name: Harris_corners.py
