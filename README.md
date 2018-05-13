@@ -16,6 +16,7 @@ In the next image the outcome of this first step is shown. The characters shown 
 2.1. Harris Corners.
 In this section the Harris corners are gotten and the corresponding feature-vector is constructed.
 script_name: Harris_corners.py
+
 The outcome getting is shown in the next image (somes examples).
 
 ![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/Harris_corners.png)
