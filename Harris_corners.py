@@ -46,6 +46,27 @@ for i in range(len(labels)):
             temp.append(np.flip(np.rot90(np.reshape(emnist_images[j, :], (28, 28)), 3), 1))
     globals()[variables[i]] = temp
     print(str(i))
+          
+# Harris-corner-feature-vector creation
+Harris_corners_feature_vector = []
+for character in labels:
+    character_index = labels.index(character)
+    index = 0
+    for index_emnist_label in emnist_labels:
+        if character_index == index_emnist_label:
+            character_image = eval(variables[character_index])[index]               # Choose the character (image 28 x 28)
+            try:
+                dst = cv2.cornerHarris(character_image, 2, 3, 0.04)                 # Try to get the Harris corners
+            except:
+                dst = np.zeros([28, 28])                                            # If is not possible to get the corners, return a zero matrix
+                print('Not possible')
+            Harris_corners_feature_vector.append(len(np.where(dst > 0.025)[0]))     # Store the number o Harris corners
+            index += 1
+    print(character)
+
+# Save data
+np.save('Harris_corners_feature_vector.npy', Harris_corners_feature_vector)
+
 #%% Show some random images focusing on the Harris corners
 rows_to_show = 5
 columns_to_show = 10
@@ -61,5 +82,3 @@ for i in range(rows_to_show):
         axes[i, j].imshow(img_color)                                #Showing the image
         axes[i, j].set_axis_off()
         k += 1
-#%%
-
