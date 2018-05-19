@@ -4,6 +4,9 @@
 Created on Sat May 12 20:13:56 2018
 
 @author: a_santos
+
+This script creates the target vector (aka y-vector or outcome-vector).
+
 """
 # Importing libreries and tools
 import scipy.io as sio
