@@ -30,3 +30,4 @@ In the next image it is evident why in some cases the expected outcome is not me
 #### 2.3 Elongation.
 
 In work...
+![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/Elongation.png)
