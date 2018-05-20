@@ -31,6 +31,8 @@ In the next image it is evident why in some cases the expected outcome is not me
 
 The elongation is defined (in this work) as the ratio between the mayor axis and the minor axis of the ellipse that encloses a certain character.
 
+The following image shows some random examples of how the feature-vector was constructed.
+
 ![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/Elongation.png)
 
 #### 2.4 In work...
