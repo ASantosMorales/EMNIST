@@ -40,7 +40,7 @@ The following image shows some random examples of how the feature-vector was con
 The HOG description is getting in this section. The number of bins is 12 (i.e. pi/6, pi/3, ..., 2pi) and the image is divided by 4 quadrants to perfom the analysis. In the next image is shown the HOG description of the three number.
 
 <p align="center">
-<src="https://github.com/ASantosMorales/EMNIST/blob/master/HOG_description.jpeg">
+<img src="https://github.com/ASantosMorales/EMNIST/blob/master/HOG_description.jpeg">
 </p>
 
 ![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/HOG_description.jpeg)
