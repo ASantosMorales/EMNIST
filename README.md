@@ -37,7 +37,7 @@ The following image shows some random examples of how the feature-vector was con
 
 #### 2.4 Histogram of Oriented Gradients (HOG)
 
-The HOG is getting in this section. The numbesr of bins is 12 (i.e. pi/6, pi/3, ..., 2pi) and the image is divided by 4 quadrants to perfom the analysis. In the next image is possible to see the HOG description of the three number.
+The HOG description is getting in this section. The number of bins is 12 (i.e. pi/6, pi/3, ..., 2pi) and the image is divided by 4 quadrants to perfom the analysis. In the next image is shown the HOG description of the three number.
 
 ![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/HOG_description.jpeg)
 
