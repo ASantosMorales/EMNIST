@@ -37,9 +37,11 @@ The following image shows some random examples of how the feature-vector was con
 
 #### 2.4 Histogram of Oriented Gradients (HOG)
 
-The Histogram of Oriented Gradients is getting in this section. The numbesr of bins is 12 (i.e. "\\pi") and the image is divided by 4 to perfom the analysis. The outcome is a vector [1 x 48] for each image. Is assumed that this vector itself could be a features vector.
+The HOG is getting in this section. The numbesr of bins is 12 (i.e. pi/6, pi/3, ..., 2pi) and the image is divided by 4 quadrants to perfom the analysis. In the next image is possible to see the HOG description of the three number.
 
 ![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/HOG_description.jpeg)
+
+Finally the outcome feature-vector is a vector [1 x 48] for each image (12 bins x 4 quadrants).
 
 Support link: https://docs.opencv.org/3.1.0/dd/d3b/tutorial_py_svm_opencv.html (In this link a deeply explanation can be found)
 
