@@ -37,7 +37,7 @@ The following image shows some random examples of how the feature-vector was con
 
 #### 2.4 Histogram of Oriented Gradients (HOG)
 
-The Histogram of Oriented Gradients is getting in this section. The numbesr of bins is 12 (15°) and the image is divided by 4 to perfom the analysis. The outcome is a vector [1 x 48] for each image. Is assumed that this vector itself could be a features vector.
+The Histogram of Oriented Gradients is getting in this section. The numbesr of bins is 12 (i.e. \pi) and the image is divided by 4 to perfom the analysis. The outcome is a vector [1 x 48] for each image. Is assumed that this vector itself could be a features vector.
 
 ![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/HOG_description.jpeg)
 
