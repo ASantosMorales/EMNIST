@@ -43,8 +43,6 @@ The HOG description is getting in this section. The number of bins is 12 (i.e. p
 <img src="https://github.com/ASantosMorales/EMNIST/blob/master/HOG_description.jpeg">
 </p>
 
-![alt text](https://github.com/ASantosMorales/EMNIST/blob/master/HOG_description.jpeg)
-
 Finally the outcome feature-vector is a vector [1 x 48] for each image (12 bins x 4 quadrants).
 
 Support link: https://docs.opencv.org/3.1.0/dd/d3b/tutorial_py_svm_opencv.html (In this link a deeply explanation can be found)
